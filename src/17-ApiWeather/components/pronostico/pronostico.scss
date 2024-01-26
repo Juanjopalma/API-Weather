@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor Principal */
+.pronostico {
+  width: 100%;
+
+  .pantallaPrincipal {
+    height: calc(100vh - 80px);
+  }
+
+  hr {
+    width: 90%;
+    border: 2px solid white;
+    margin-bottom: 3rem;
+  }
+
+  /* Primer Contenedor */
+  .contenedor1 {
+    height: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cuadro {
+      height: 300px;
+      padding: 1rem;
+      text-align: center;
+      background-color: rgb(0, 0, 0, 0.3);
+      color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 151.4px;
+
+      .city {
+        font-size: 1.25rem;
+        margin: 0;
+      }
+
+      .temperatura {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      .description {
+        text-transform: uppercase;
+      }
+
+      img {
+        width: 90px;
+      }
+    }
+  }
+
+  /* Segundo Contenedor */
+  .contenedor2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cuadros {
+      width: 70%;
+      height: 170px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      overflow-x: auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+    }
+
+    .cuadros::-webkit-scrollbar {
+      display: block;
+      height: 7px;
+    }
+
+    .cuadros::-webkit-scrollbar-thumb {
+        background: white;
+    }
+
+    .cuadritos {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      color: white;
+      padding: 0 20px;
+
+      p {
+        margin: 0;
+        width: 60px;
+      }
+    }
+  }
+
+  /* Tercer Contenedor */
+  .contenedor3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+    .otraInfo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px 
+    }
+
+    h2 {
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    img {
+      color: white;
+      width: 30px;
+      margin: 0 4px;
+    }
+
+    h5 {
+      font-weight: bold;
+    }
+
+    .caja {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.349);
+        backdrop-filter: blur(3px);
+        text-align: center;
+    }
+  }
+}
