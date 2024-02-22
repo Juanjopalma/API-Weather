@@ -22,4 +22,4 @@ This application allows you to observe the weather for the next five days from a
    - Local:   http://localhost:5173/
   
 ## View Project
-You can view the project by following this https://api-weather-juanjo-palma.netlify.app/
+You can view the project by following link: https://api-weather-juanjo-palma.netlify.app/
