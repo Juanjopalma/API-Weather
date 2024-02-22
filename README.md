@@ -20,3 +20,6 @@ This application allows you to observe the weather for the next five days from a
 
 6. Control + click on the terminal message like this (the port may be different):
    - Local:   http://localhost:5173/
+  
+## View Project
+You can view the project by following this https://api-weather-juanjo-palma.netlify.app/
