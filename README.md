@@ -7,7 +7,7 @@ This application allows you to observe the weather for the next five days from a
 
 ## Installation
 1. Clone this repository to your local machine: 
-   - git clone https://github.com/Juanjopalma/Front_technical_test.git
+   - git clone https://github.com/Juanjopalma/API_Weather.git
 
 2. Move to the application folder:
    - cd API_Weather
